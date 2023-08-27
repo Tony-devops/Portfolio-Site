@@ -3,6 +3,8 @@ import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Projects from "./components/projects/Projects";
+import Resume from "./components/resume/Resume";
+
 function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
@@ -11,8 +13,8 @@ function App() {
         <Banner />
         <Projects />
         <Features />
-        {/* <Resume />
-        <Testimonial />
+        <Resume />
+        {/* <Testimonial />
         <Contact />
         <Footer />
         <FooterBottom /> */}
