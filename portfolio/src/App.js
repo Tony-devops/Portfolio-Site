@@ -4,6 +4,7 @@ import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,10 +15,7 @@ function App() {
         <Projects />
         <Features />
         <Resume />
-        {/* <Testimonial />
-        <Contact />
         <Footer />
-        <FooterBottom /> */}
       </div>
     </div>
   );
